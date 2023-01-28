@@ -12,7 +12,6 @@ Bienvenue, entre ton adresse de départ et ton adresse d'arrivée, tu verras com
 '''
 
 
-
 default_latitude = 40.730610
 default_longitude = -73.935242
 
@@ -27,7 +26,7 @@ passenger_count = st.number_input("number of passengers", value=1)
 
 url = 'https://taxifare.lewagon.ai/predict'
 
-if url == 'https://taxifare.lewagon.ai/predict':
+
 
 
 key = "2013-07-06 17:18:00.000000119"
